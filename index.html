@@ -4,42 +4,116 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ba-starter</title>
+    <title>Monticello</title>
+    <link rel="stylesheet" href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css'>
+    <link rel="stylesheet" href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css'>
 
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/app.css">
     <link rel="icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Aleo:300,300i,400,700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="ba-banner">
+        <header class="ba-header">
+            <div class="container">
 
-    <header class="ba-header">
-        <div class="container">
+                <div class="ba-logo"></div>
 
-            <a href="#" class="ba-logo"></a>
-
-            <nav>
-                <ul class="ba-menu">
-                    <li class="ba-menu__item">
-                        <a href="#" class="ba-menu__link">item</a>
-                    </li>
-                    <li class="ba-menu__item">
-                        <a href="#" class="ba-menu__link">item</a>
-                    </li>
-                    <li class="ba-menu__item">
-                        <a href="#" class="ba-menu__link">item</a>
-                    </li>
-                    <li class="ba-menu__item">
-                        <a href="#" class="ba-menu__link">item</a>
-                    </li>
-                </ul>
-            </nav>
-
-        </div>
-    </header>
-
+    
+                <nav>
+                    <div class="">
+                        <ul class="ba-menu ">
+                            <li class="ba-menu__item">
+                                <a href="#" class="ba-menu__link">About us</a>
+                            </li>
+                            <li class="ba-menu__item">
+                                <a href="#" class="ba-menu__link">Projects</a>
+                            </li>
+                            <li class="ba-menu__item">
+                                <a href="#" class="ba-menu__link">News</a>
+                            </li>
+                            <li class="ba-menu__item">
+                                <a href="#" class="ba-menu__link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="">
+                        <h1>Simple & mordern</h1>
+                        <h5>We make the world's beautiful every day</h5>
+                    </div>
+                    
+                </nav>  
+            </div>
+        </header>
+    </div>    
     <main>
         <section class="ba-section">
-            <div class="container">
+            <div class="what_we_do">
+                <h3>What we do</h3>
+                <div class="ba-row" style="position: relative;">
+                    <div class="ba-col-6 wwd_col_1">
+                        <div class="wwd_col_1_1 wwd_col_1_size">
+                        </div>
+                        <img class='wwd_col_1_2 wwd_col_1_size' src="images/Frame.png">
+
+                    </div>
+                    <div class="ba-col-6" style="position: absolute; bottom: 10px; left: 50%;">
+                        <button>More dateils</button>
+                        <div><img src="images/map.png" width="12" height="16">  New York City, United States - 1776 feet</div>
+                    </div>
+                </div>
+
+                <div class="ba-row" style="position: relative;">
+                         <div class="ba-col-6" style="position: absolute; bottom: 10px; left: 50%;">
+                            <button>More dateils</button>
+                            <div><img src="images/map.png" width="12" height="16">  New York City, United States - 1776 feet</div>
+                        </div>
+                        <div class="ba-col-6 wwd_col_1">
+                            <div class="wwd_col_1_1 wwd_col_1_size">
+                            </div>
+                            <img class='wwd_col_1_2 wwd_col_1_size' src="images/Frame.png">
+                        </div>                    
+                </div>
+                 
+                <div class="ba-latest ">
+                    <h2>Latest news</h2>
+                    <div class="ba-row news">
+                        <div class="news1 ba-col-4">
+                            <div>
+                                <img src="images/Frame2.png" width="370" height="240">
+                                <div>See the unmatched beauti of the great. lakes </div>
+                            </div>
+                        </div>
+                        <div class="news1 ba-col-4">
+                            <div>
+                                <img src="images/Frame3.png" width="370" height="240">
+                                <div>See the unmatched beauti of the great. lakes </div>
+                            </div>
+                        </div>
+                        <div class="news1 ba-col-4">
+                                <div>
+                                    <img src="images/Frame4.png" height="240">
+                                    <div>
+                                        See the unmatched beauti of the great. lakes 
+                                    </div>
+                                </div>
+                        </div>    
+                        <div class="news1 ba-col-4">
+                                <div>
+                                    <img src="images/Frame2.png" width="370" height="240">
+                                    <div>Se1111111111111111111111111es </div>
+                                </div>
+                            </div>
+                            <div class="news1 ba-col-4">
+                                <div>
+                                    <img src="images/Frame3.png" width="370" height="240">
+                                    <div>33333333333333333333 </div>
+                                </div>
+                            </div>
+                            
+                    </div>
+                </div>
 
             </div>
         </section>
@@ -50,6 +124,12 @@
             
         </div>
     </footer>
-
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.slim.js"
+    integrity="sha256-BTlTdQO9/fascB1drekrDVkaKd9PkwBymMlHOiG+qLI="
+    crossorigin="anonymous"></script>
+    <script src ='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js'></script>
+    <script src='app.js'></script>
+    <!-- <script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyAOFADmh5XKTWnRWE4PgDr1PgqxPNZy92M&callback=initMap'    async defer></script> -->
 </body>
 </html>

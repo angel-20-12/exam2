@@ -8,7 +8,7 @@ $colWidth: 100% / $columsCount;
     box-sizing: border-box;
 }
 
-.container {
+.container {  
     max-width: $containerWidth;
     width: 100%;
     margin: 0 auto;
@@ -20,8 +20,8 @@ $colWidth: 100% / $columsCount;
 .ba-row {
     display: flex;
     flex-wrap: wrap;
-    margin-left: -$gap;
-    margin-right: -$gap;
+    margin-left: $gap;
+    margin-right: $gap;
 }
 
 .ba-row+.ba-row {
@@ -57,4 +57,73 @@ $colWidth: 100% / $columsCount;
 
 .ba-text-justify {
     text-align: justify;
+}
+
+.ba-banner {
+    background-image: url(../images/tu-tram-pham-202263.png),
+                      url(../images/Bg.png);  
+    text-transform: uppercase;
+    height: 100vh;
+    color: #ffffff;
+    padding-top: 20px;
+}
+
+.ba-logo {
+    background-image: url(../images/Logo.png);
+    width: 241px;
+    height: 54px;
+}
+
+body {
+    margin: auto;
+    padding-top: 0;
+}
+.ba-menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.what_we_do {
+    height: 650px;
+    
+}
+
+.wwd_col_1 {
+    position: relative;
+    height: 380px;
+    // width: 100%;
+    //background-color: red;
+}
+
+.wwd_col_1_size {
+    height: 300px;
+    width: 500px;
+}
+
+.wwd_col_1_1 {
+    background-color: aqua;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.wwd_col_1_2 {
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+.ba-latest {
+    background-image: url(../images/Bg2.png);
+    height: 800px;
+    padding: 0 15px;
+    // display: flex;
+}
+
+.news1 {
+    display: inline-block;
+    height: 400px; 
+    background-color: white;
+    width: 370px;
+    max-width: 370px;;
 }
